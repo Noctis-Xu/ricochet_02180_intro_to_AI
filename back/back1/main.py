@@ -163,14 +163,4 @@ class Frame(wx.Frame):
         self.Fit()
 
 
-def main():
-    app = wx.App(False)
-    seed = int(sys.argv[1]) if len(sys.argv) == 2 else None
-    frame = Frame(seed)
-    frame.Center()
-    frame.Show()
-    app.MainLoop()
 
-
-if __name__ == '__main__':
-    main()
