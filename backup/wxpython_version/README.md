@@ -1,9 +1,9 @@
-RICOCHET ROBOTS
+RICOCHET ROBOT
 
 # Requirements
-Python 3.10.16 (my version)
+Python 3.10 (my version)
 
-pygame 2.6.1 (my version)
+wxPython 4.2.2 (my version)
 
 # Run
 Launch the program with: python main.py
@@ -19,12 +19,11 @@ B - Blue
 
 Y - Yellow
 
-
 Other program controls are listed below.
 
 N - New Game
 
-A - AI Play
+S - Solve
 
 U - Undo
 
